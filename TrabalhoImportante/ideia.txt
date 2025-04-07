@@ -1,0 +1,4 @@
+Fazer um perguntas e respostas de matemática!
+Mecânicas:
+    Escolha de funções matemáticas que podem aparecer
+    
