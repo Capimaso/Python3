@@ -5,4 +5,4 @@ e compilei o instalador(<a href='https://github.com/Capimaso/Python3/commit/b5de
 <p>As informacoes dos arquivos de instalador e etc. estao no <a href='https://github.com/Capimaso/Python3/commit/b5deecb6102c1f7552d2d6b4b26c1fd9b2fc0b61'>Log1.0</a>, alem de que, eu nao botei no Log, mas junto ao novo instalador
 eu tambem atualizei o codigo do jogo, colocando agora modo de dificuldade e mais tipos de contas. Em breve mais atualizacoes</p>
 <h3>Disclaimer: Sou Senior ainda!</h3>
-<img src='downloadicon.png' href ='https://github.com/Capimaso/Python3/releases/download/v1.0.0/MateQuizInstaller.exe' width = 200px height = 200px>
+<a href ='https://github.com/Capimaso/Python3/releases/download/v1.0.0/MateQuizInstaller.exe'><img src='downloadicon.png' width = 200px height = 200px></a>
