@@ -6,3 +6,5 @@ e compilei o instalador(<a href='https://github.com/Capimaso/Python3/commit/b5de
 eu tambem atualizei o codigo do jogo, colocando agora modo de dificuldade e mais tipos de contas. Em breve mais atualizacoes</p>
 <h3>Disclaimer: Sou Senior ainda!</h3>
 <a href ='https://github.com/Capimaso/Python3/releases/download/v1.0.0/MateQuizInstaller.exe'><img src='downloadicon.png' width = 200px height = 200px></a>
+
+<p>Atualizado:08.04.25</p>
