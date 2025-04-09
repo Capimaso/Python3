@@ -6,7 +6,7 @@ import os
 def conta():
     os.system('cls')
     erros = 0; #variavel que conta os erros
-    questionValue = int(input('Quantas questoes gostaria de resolver? (Máximo 30)\n'))
+    questionValue = int(input('Quantas questoes gostaria de resolver?\n'))
     os.system('cls')
     questionDifficult = 0
     while (questionDifficult>3 or questionDifficult<1): #Apenas permite que o usuário escolha alguma dificuldade avaliavel
