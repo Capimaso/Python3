@@ -2,13 +2,20 @@
 import random
 import time
 import os
+from tkinter import *
+janela = Tk()
 
 def conta():
     os.system('cls')
+    janela2 = Tk()
+    janela2.title('Escolha')
+    Label(janela2, text='Quantas questoes gostaria de resolver?', width=500, height=500).grid(column=0,row=0)
+    Text(janela2, width=10, height=10).grid(column=0,row=1)
     erros = 0; #variavel que conta os erros
     questionValue = int(input('Quantas questoes gostaria de resolver?\n'))
     os.system('cls')
     questionDifficult = 0
+    janela2.title('Questao')
     while (questionDifficult>3 or questionDifficult<1): #Apenas permite que o usuário escolha alguma dificuldade avaliavel
         questionDifficult = int(input('Qual dificuldade gostariade jogar?\n1-Fácil\n2-Médio\n3-Difícil\n'))
     for i in range(questionValue): #Vai ficar rodando o código que 
@@ -72,7 +79,11 @@ menuOptions = ['Jogar','Instruçoes','Sair']
 #Funcao do menu, pra toda vez que terminar voltar ao menu.
 def menu():
     os.system('cls')
-
+    janela.title('MateQuiz')
+    Label(janela,text='MateQuiz').grid(column=0,row=0)
+    Button(janela, text='Jogar', command=conta).grid(column=0, row=1)
+    Button(janela, text='Instrucoes', command=conta).grid(column=0, row=2)
+    Button(janela, text='Sair', command=conta).grid(column=0, row=3)
     print('----------Seja bem-vindo ao MateQuiz!----------\nDigite uma das seguintes opções:')
     for i in range(len(menuOptions)):
         print('{} - {}'.format((i+1), menuOptions[i]))
@@ -83,7 +94,7 @@ def menu():
         case 2:
             os.system('cls')
             print('Como jogar?\n As regras sao básicas, escolha uma quantidade de questoes para resolver, após isso leia a questao e responda o resultado da conta, e se errar 3 vezes, o jogo acaba!')
-            skipTutorial = input('Pressione ENTER para continuar...')
+            os.system('pause')
             menu()
         case 3:
             os.close()
